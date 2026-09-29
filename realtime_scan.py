@@ -117,7 +117,7 @@ def init_clob_client():
                 api_secret=POLY_SECRET,
                 api_passphrase=POLY_PASSPHRASE,
             ),
-            signature_type=SignatureTypeV2.POLY_GNOSIS_SAFE,
+            signature_type=3,
             funder=POLY_FUNDER,
         )
         print("[AUTO BUY] CLOB client initialized.", flush=True)
